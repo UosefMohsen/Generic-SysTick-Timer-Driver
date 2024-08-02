@@ -1,0 +1,13 @@
+A Generic Systick Timer Driver that's compitable with any ARM Cortex M4, M3
+Functions:-
+1- void SysTick_Init(uint16 a_TimeInMilliSeconds);
+2- void SysTick_DeInit(void);
+3- void SysTick_Start(void);
+4- void SysTick_Stop(void);
+5- void SysTick_StartBusyWait(uint16 a_TimeInMilliSeconds);
+6- extern void SysTick_Handler(void);
+7- extern void SysTick_SetCallBack(volatile void (*Ptr2Func) (void));
+*** Important ***
+in order to use the systick handler and interrupts, the macro "Enable_Execptions();" must be called
+which is included in the "NVIC.h" file in the NVIC Driver.
+each function has it's descriptions.
