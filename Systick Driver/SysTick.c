@@ -1,3 +1,8 @@
+/*******************************************************************************
+ AUTHOR : Uosef Mohsen
+ Linkedin: https://www.linkedin.com/in/uosef-mohsen-26468b204/
+ GitHub: https://github.com/UosefMohsen
+ *******************************************************************************/
 #include "SysTick.h"
 static volatile void (*CallBackNotificationPtr)(void) = NULL_PTR;
 
